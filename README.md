@@ -48,11 +48,6 @@ The `co_word_analysis.R` script performs a **Conceptual Structure Analysis** bas
 - Perform co-word analysis using `conceptualStructure()`
 - Visualize the keyword clusters with multidimensional scaling (MDS)
 
-### Customizable Parameters:
-- `minDegree`: Minimum keyword frequency to be included in analysis
-- `clust`: Number of clusters (or set to `"auto"`)
-- `stemming`: Use stemming to unify similar terms
-
 ### Output:
 - A visual network of clustered keywords that reveals key research themes in the dataset.
 
@@ -67,7 +62,7 @@ The dataset `scopus_digital_pm.csv` are a sample export from **Scopus**, contain
 ### Notes:
 - If using your own dataset, make sure to:
   - Export in **CSV** format
-  - Specify the source as `"scopus"` in the `convert2df()` function
+  - Specify the source in the `convert2df()` function
 
 ---
 
