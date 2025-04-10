@@ -6,8 +6,8 @@ This repository contains two R scripts that leverage the **Bibliometrix** R pack
 
 ## 📁 Repository Structure
 
-- `metadata_analysis.R`: Script for conducting **Descriptive Metadata Analysis**, including author productivity, citation analysis, and keyword trends.
-- `co_word_analysis.R`: Script for performing **Co-Word Analysis** on a Scopus dataset using keyword co-occurrence and clustering techniques.
+- `MetadataAnalysisBibliometrix.R`: Script for conducting **Descriptive Metadata Analysis**, including author productivity, citation analysis, and keyword trends.
+- `CowordAnalysis_Bibliometrix.R`: Script for performing **Co-Word Analysis** on a Scopus dataset using keyword co-occurrence and clustering techniques.
 - `scopus_digital_pm.csv` and `scopus_social_robotics.csv`: Example datasets downloaded from **Scopus** and used in the scripts.
   
 
@@ -24,7 +24,7 @@ install.packages("readr")
 
 ## 📈 Script 1: Metadata Analysis
 
-The `metadata_analysis.R` script extracts and visualizes various bibliometric indicators.
+The `MetadataAnalysisBibliometrix.R` script extracts and visualizes various bibliometric indicators.
 
 ### Key Functions:
 - `biblioAnalysis()`: Core function to analyze bibliographic metadata
@@ -41,7 +41,7 @@ The `metadata_analysis.R` script extracts and visualizes various bibliometric in
 
 ## 🧠 Script 2: Co-Word Analysis
 
-The `co_word_analysis.R` script performs a **Conceptual Structure Analysis** based on authors' keywords (`DE` field).
+The `CowordAnalysis_Bibliometrix.R` script performs a **Conceptual Structure Analysis** based on authors' keywords (`DE` field).
 
 ### Key Steps:
 - Import the dataset using `convert2df()`
